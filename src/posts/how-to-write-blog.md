@@ -1,5 +1,5 @@
 ---
-icon: edit
+icon: pen-to-square
 date: 2023-12-02
 category:
   - 教程
@@ -9,7 +9,6 @@ tag:
   - VuePress
   - 指南
 ---
-
 # 如何在VuePress中写博客
 
 本文将介绍如何在VuePress中创建和编写博客文章，包括Markdown语法和VuePress特有的功能。
@@ -18,7 +17,7 @@ tag:
 
 ## 创建新的博客文章
 
-在VuePress中创建新的博客文章非常简单，只需要在`src/posts`目录下创建一个新的Markdown文件即可。
+在VuePress中创建新的博客文章非常简单，只需要在 `src/posts`目录下创建一个新的Markdown文件即可。
 
 ### 文件命名
 
@@ -98,6 +97,7 @@ function hello() {
   console.log('Hello, VuePress!');
 }
 ```
+
 ```
 
 ## VuePress特有功能
@@ -142,7 +142,7 @@ VuePress允许你在Markdown中使用Vue组件：
 
 写完博客后，你需要将其发布到网站上：
 
-1. 运行`npm run docs:build`构建网站
+1. 运行 `npm run docs:build`构建网站
 2. 将生成的文件部署到服务器或GitHub Pages
 
 如果你使用GitHub Actions，只需要将代码推送到GitHub仓库，它会自动构建并部署你的博客。
