@@ -8,6 +8,7 @@
     "docs:build": "vuepress-webpack build src",
     "docs:clean-dev": "vuepress-webpack dev src --clean-cache",
     "docs:dev": "vuepress-webpack dev src",
+    "docs:dev-port": "vuepress-webpack dev src --port",
     "docs:update-package": "npx vp-update"
   },
   "devDependencies": {

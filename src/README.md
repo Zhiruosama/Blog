@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: house
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /FayLogo.svg
 bgImage: /assets/images/BG.png
 heroText: 学习笔记
 heroFullScreen: true
@@ -34,7 +34,7 @@ projects:
     desc: 伙伴详细介绍
     link: https://你的伙伴链接
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
+  - icon: /FayLogo.svg
     name: 自定义项目
     desc: 自定义详细介绍
     link: https://你的自定义链接
