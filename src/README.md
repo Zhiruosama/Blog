@@ -4,7 +4,8 @@ layout: Blog
 icon: house
 title: 博客主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 张鸿滨的学习笔记
+bgImage: /assets/images/BG.png
+heroText: 学习笔记
 heroFullScreen: true
 tagline: Better Done Than Talked
 projects:
